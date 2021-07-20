@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="NG Egg Jam"
+config/description="A Demon King kills his entire legion of chefs and promotes his guards as replacement staff."
+run/main_scene="res://Spatial.tscn"
+boot_splash/image="res://art/july_jam.png"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=960
+window/size/height=640
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
