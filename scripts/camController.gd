@@ -1,4 +1,4 @@
-extends Node
+extends Position3D
 
 
 # Declare member variables here. Examples:

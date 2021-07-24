@@ -1,11 +1,30 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://WORLD.tscn" type="PackedScene" id=1]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/camController.gd" type="Script" id=3]
+[ext_resource path="res://models/YANNY_SPORTS_NEW_JOGGING.fbx" type="PackedScene" id=4]
+
+[sub_resource type="ProceduralSky" id=1]
+sky_top_color = Color( 0.341176, 0.858824, 0.929412, 1 )
+sky_horizon_color = Color( 0.960784, 0.741176, 0.52549, 1 )
+sky_curve = 0.221606
+sky_energy = 1.43
+ground_bottom_color = Color( 0.172549, 0.152941, 0.219608, 1 )
+ground_horizon_color = Color( 0.627451, 0.521569, 0.431373, 1 )
+sun_latitude = 48.01
+sun_longitude = 5.05
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+ambient_light_color = Color( 0.929412, 0.909804, 0.823529, 1 )
+ambient_light_energy = 1.02
 
 [node name="Spatial" type="Spatial"]
 
 [node name="camController" type="Position3D" parent="."]
+script = ExtResource( 3 )
 
 [node name="Camera" type="Camera" parent="camController"]
 transform = Transform( 1, 0, 0, 0, 0.996195, 0.0871557, 0, -0.0871557, 0.996195, 0, 5, 50 )
@@ -17,3 +36,11 @@ fov = 56.0
 
 [node name="Spatial" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.5276, -44.288, -69.1076 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="Position3D" type="Position3D" parent="."]
+
+[node name="YANNY_SPORTS_NEW_JOGGING" parent="Position3D" instance=ExtResource( 4 )]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, 0, 1.95, 33 )
