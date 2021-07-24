@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/denumys-1187771e-7865-4059-b48c-12a47f62dc6c.png-5f33eb4f353560de3d20274e9a628c6c.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://images/denumys-1187771e-7865-4059-b48c-12a47f62dc6c.png"
+dest_files=[ "res://.import/denumys-1187771e-7865-4059-b48c-12a47f62dc6c.png-5f33eb4f353560de3d20274e9a628c6c.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

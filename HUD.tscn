@@ -1,66 +1,70 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://art/1156517.jpg" type="Texture" id=1]
-[ext_resource path="res://art/image0.jpg" type="Texture" id=2]
+[ext_resource path="res://images/denumys-1187771e-7865-4059-b48c-12a47f62dc6c.png" type="Texture" id=1]
+[ext_resource path="res://images/image0.jpg" type="Texture" id=2]
+[ext_resource path="res://images/denumxs-7fe4f9fd-1e85-4b2d-899b-a18abc64388d.png" type="Texture" id=3]
+[ext_resource path="res://images/denumy3-e9f46ed9-b95f-4c6e-8dd7-4292b52d4753.png" type="Texture" id=4]
+[ext_resource path="res://images/denumyj-a003f191-64b6-4b7c-8554-d03e6ea7c401.png" type="Texture" id=5]
+[ext_resource path="res://images/denumyz-b00fbb13-5022-43d9-a389-34619eca8b70.png" type="Texture" id=6]
+[ext_resource path="res://images/denumxx-c98572df-5a19-4b78-adc2-af9d5db6723a.png" type="Texture" id=7]
+[ext_resource path="res://images/denumya-6aca5d23-b9e9-4224-bdc0-df3d006e2ea1.png" type="Texture" id=8]
+[ext_resource path="res://images/denumyn-3e3ffd09-93b6-4648-97a4-e2a790db33fd.png" type="Texture" id=9]
+[ext_resource path="res://images/denumz4-f8d155b9-d762-4ed9-8663-609f13e14fc2.png" type="Texture" id=10]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 __meta__ = {
-"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 
-[node name="1156517" type="Sprite" parent="."]
-position = Vector2( 86.9695, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156518" type="Sprite" parent="."]
-position = Vector2( 187.028, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156519" type="Sprite" parent="."]
-position = Vector2( 287.74, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156520" type="Sprite" parent="."]
-position = Vector2( 391.448, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156521" type="Sprite" parent="."]
-position = Vector2( 490.989, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156522" type="Sprite" parent="."]
-position = Vector2( 590.202, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156523" type="Sprite" parent="."]
-position = Vector2( 689.611, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156524" type="Sprite" parent="."]
-position = Vector2( 789.152, 540 )
-scale = Vector2( 0.249165, 0.25 )
-texture = ExtResource( 1 )
-
-[node name="1156525" type="Sprite" parent="."]
-position = Vector2( 888.365, 540 )
-scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 1 )
-
 [node name="image0" type="Sprite" parent="."]
-position = Vector2( 477.214, 549.442 )
-scale = Vector2( 0.242028, 0.0731589 )
+position = Vector2( 477.214, 601.769 )
+scale = Vector2( 0.242028, 0.0628653 )
 z_index = -1
 texture = ExtResource( 2 )
-__meta__ = {
-"_edit_lock_": true
-}
+
+[node name="denumxs-7fe4f9fd-1e85-4b2d-899b-a18abc64388d" type="Sprite" parent="."]
+position = Vector2( 165, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 3 )
+
+[node name="denumxx-c98572df-5a19-4b78-adc2-af9d5db6723a" type="Sprite" parent="."]
+position = Vector2( 60, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 7 )
+
+[node name="denumy3-e9f46ed9-b95f-4c6e-8dd7-4292b52d4753" type="Sprite" parent="."]
+position = Vector2( 270, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 4 )
+
+[node name="denumya-6aca5d23-b9e9-4224-bdc0-df3d006e2ea1" type="Sprite" parent="."]
+position = Vector2( 480, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 8 )
+
+[node name="denumyj-a003f191-64b6-4b7c-8554-d03e6ea7c401" type="Sprite" parent="."]
+position = Vector2( 585, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 5 )
+
+[node name="denumyn-3e3ffd09-93b6-4648-97a4-e2a790db33fd" type="Sprite" parent="."]
+position = Vector2( 375, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 9 )
+
+[node name="denumys-1187771e-7865-4059-b48c-12a47f62dc6c" type="Sprite" parent="."]
+position = Vector2( 690, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 1 )
+
+[node name="denumyz-b00fbb13-5022-43d9-a389-34619eca8b70" type="Sprite" parent="."]
+position = Vector2( 900, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 6 )
+
+[node name="denumz4-f8d155b9-d762-4ed9-8663-609f13e14fc2" type="Sprite" parent="."]
+position = Vector2( 795, 600 )
+scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 10 )

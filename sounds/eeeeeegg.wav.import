@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/eeeeeegg.wav-803f7cf24b5bf20d9259d17f7d658b30.sample"
+
+[deps]
+
+source_file="res://sounds/eeeeeegg.wav"
+dest_files=[ "res://.import/eeeeeegg.wav-803f7cf24b5bf20d9259d17f7d658b30.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -12,14 +12,15 @@ config_version=4
 
 config/name="NG Egg Jam"
 config/description="A Demon King kills his entire legion of chefs and promotes his guards as replacement staff."
-run/main_scene="res://Spatial.tscn"
+run/main_scene="res://GAMEPLAY.tscn"
 boot_splash/image="res://art/july_jam.png"
 config/icon="res://icon.png"
 
 [display]
 
 window/size/width=960
-window/size/height=640
+window/size/height=690
+window/size/resizable=false
 
 [physics]
 
